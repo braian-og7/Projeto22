@@ -64,7 +64,7 @@ header {
   float: center;
 }
   .card {
-    box-shadow: 0 4px 8px 0 rgba(92, 13, 13, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(209, 209, 209, 0.2);
     width: 300px;
     height: 100%;
     padding-top: 10px;
@@ -89,7 +89,7 @@ header {
     outline: 0;
     color: rgb(100, 5, 45);
     border: 0px;
-    background-color: #380d38;
+    background-color: #f7e4f7;
     text-align: center;
     cursor: pointer;
     width: 100%;
