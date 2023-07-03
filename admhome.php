@@ -14,67 +14,39 @@ $nomeusuario = $_SESSION["nomeusuario"];
 
 
 
-
-
-
-
 <!DOCTYPE html>
-
-
-
 
 <html lang="en">
 
-
-
-
 <head>
 
-
-
-
     <meta charset="UTF-8">
-
-
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-
-
     <link rel="stylesheet" href="./css/estiloadm.css">
-
-
 
 
     <title>MENU ADMINISTRATIVO</title>
 
 
 
-
 </head>
-
-
 
 
 <body>
 
 
-
-
     <div>
-
-
 
 
         <ul class="menu">
 
 
 
-
             <li> <a href="cadastrausuario.php">CADASTRA USUARIO</a></li>
-
 
 
 
@@ -83,7 +55,7 @@ $nomeusuario = $_SESSION["nomeusuario"];
 
 
 
-            <li> <a href="cadastrproduto.php">CADASTRA PRODUTO</a></li>
+            <li> <a href="cadastraproduto.php">CADASTRA PRODUTO</a></li>
 
 
 
@@ -118,18 +90,10 @@ $nomeusuario = $_SESSION["nomeusuario"];
 
             if ($nomeusuario != null) {
 
-
-
-
                 ?>
 
 
-
-
                 <!-- USO DO ELEMENTO HTML COM PHP INTERNO -->
-
-
-
 
                 <li class="profile">OLÁ
 
@@ -137,30 +101,17 @@ $nomeusuario = $_SESSION["nomeusuario"];
 
                 </li>
 
-
-
-
                 <?php
-
-
 
 
                 #ABERTURA DE OUTRO PHP PARA CASO FALSE
 
-           
-
-
-
-
-
+       
             } else {
 
 
 
-
                 echo "<script>window.alert('USUARIO NÃO AUTENTICADO');window.location.href='login.php';</script>";
-
-
 
 
             }
@@ -169,33 +120,17 @@ $nomeusuario = $_SESSION["nomeusuario"];
 
 
             #FIM DO PHP PARA CONTINUAR MEU HTML
-
-           
+  
 
             ?>
-
-
-
-
-
-
 
 
         </ul>
 
 
-
-
     </div>
 
-
-
-
-
-
 </body>
-
-
 
 
 </html>
